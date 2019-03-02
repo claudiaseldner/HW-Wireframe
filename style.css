@@ -2,7 +2,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: #777;    
     color: #777;
-    width: 960px;
     font-size: 18px;
     text-align: center;
 }
@@ -76,4 +75,14 @@ body {
     top: -2px;
     line-height: 4em;
 }
+.centrar {
+    margin: auto;
+    display: block;
+    width: 960px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
   
